@@ -3,7 +3,7 @@
 
 void msg(char *s){
     puts(s);
-    usleep(100042);
+    usleep(114514);
 }
 
 int main(void)
