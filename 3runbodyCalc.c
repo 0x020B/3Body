@@ -3,7 +3,7 @@
 
 void msg(char *s){
     puts(s);
-    usleep(9000);
+    usleep(100042);
 }
 
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
     int j;
     msg("***********************************");
     msg("   \e[32m[INFO]\e[0m   用户ID : weicheng");
-    msg("   \e[33m[SYS]\e[0m    计算任务已经提交");
+    msg("   \e[33m[SYS]\e[0m    计算任务已提交");
     msg("   \e[32m[INFO]\e[0m   任务ID : 89345786");
     msg("   \e[33m[SYS]\e[0m    申请节点 : node00001-node08192");
     msg("   \e[33m[SYS]\e[0m    优先级 : 最高\n");
