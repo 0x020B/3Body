@@ -21,11 +21,11 @@ int main(void)
     msg("\e[34m[STATUS]\e[0m    计算已启动\n");
     msg("------------------------");
     msg("  3bodyCalc v 3.12.83");
-    for (int i = 0; i<=100; i++){
+    for (int i = 0; i <= 100; i++){
         printf("  Proc:: ");
         for (j = 0; j <= i; j++)
             printf("%s", "\u2588");
-        for (; j<=100; j++)
+        for (; j <= 100; j++)
             printf(" ");
         printf(" %d%%\r", i);
         fflush(stdout);
